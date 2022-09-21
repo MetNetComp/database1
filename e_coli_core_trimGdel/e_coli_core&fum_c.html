@@ -1,0 +1,45 @@
+<head>
+<title>MetNetComp</title>
+</head>
+<body>
+<table>
+<tr>
+<td><img src="MetNetComp.png" width="100"> </td>
+<td> &nbsp </td>
+<td><b><font color="green">MetNetComp Database</font></b><br><br>
+at least stoichioemetrically feasible gene deletion strategies for constraint-based metabolic networks<br>
+</td>
+</tr>
+</table>
+<br>Model : <a href="http://bigg.ucsd.edu/models/e_coli_core">e_coli_core</a> [1].<br>
+Target metabolite : fum_c<br><br>
+Gene deletion strategy for growth-coupled production (at least stoichioemetrically feasible)<br>
+&nbsp Gene deletion size : 9<br>
+<font color="green">&nbsp Gene deletion: 
+b3731 b2492 b0904 b3528 b1380 b2133 b1602 b2297 b2458 
+</font><br>
+&nbsp Computed by: TrimGdel [2]<br><br>
+When growth rate is maximized,<br>
+<font color="green">
+&nbsp Growth Rate : 0.068527 (mmol/gDw/h)<br>
+&nbsp Minimum Production Rate : 5.234251 (mmol/gDw/h)<br><br>
+</font>
+Substrate: (mmol/gDw/h)<br>
+&nbsp EX_glc__D_e : 10.000000<br>
+&nbsp EX_nh4_e : 0.373664<br>
+&nbsp EX_pi_e : 0.252090<br>
+<br>
+Product: (mmol/gDw/h)<br>
+&nbsp EX_h_e : 14.709490<br>
+&nbsp EX_etoh_e : 12.095244<br>
+&nbsp EX_h2o_e : 6.529237<br>
+<br>Visualization<br>
+&nbsp 1. <a href="flow.json">Download JSON file</a>.<br>
+&nbsp 2. Go to <a href="https://escher.github.io/#/app?map=e_coli_core.Core%20metabolism&tool=Builder&model=e_coli_core"> Escher site</a> [3].<br>
+&nbsp 3. Select "Data > Load reaction data" and apply the downloaded file.<br><br>
+References<br>
+[1] Orth, J. D., Fleming, R. M., Palsson, B. Ø. (2010). 
+Reconstruction and use of microbial metabolic networks: the core Escherichia coli metabolic model as an educational guide. EcoSal plus, 4(1).<br>
+[2] Tamura, T. (2022). Trimming gene deletion strategies for growth-coupled production in constraint-based metabolic networks: TrimGdel. IEEE/ACM Transactions on Computational Biology and Bioinformatics.<br>
+[3] King, Z. A., Dräger, A., Ebrahim, A., Sonnenschein, N., Lewis, N. E., & Palsson, B. O. (2015). Escher: a web application for building, sharing, and embedding data-rich visualizations of biological pathways. PLoS computational biology, 11(8), e1004321.<br>
+</body>
