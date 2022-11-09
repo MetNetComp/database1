@@ -1,0 +1,51 @@
+<head>
+<title>MetNetComp</title>
+</head>
+<body>
+<table>
+<tr>
+<td><a href="https://metnetcomp.github.io/database_beta/indexFiles/index.html"><img src="MetNetComp.png" width="100"></a> </td>
+<td> &nbsp </td>
+<td><b><font color="green">MetNetComp Database / Minimal gene deletions</font></b><br><br>
+Minimal gene deletions for simulation-based growth-coupled production. You can also see <a href=e_coli_core&co2_c&core.html>maximal gene deletions</a>.<br><br>
+</td>
+</tr>
+</table>
+<br>Model : <a href="http://bigg.ucsd.edu/models/e_coli_core">e_coli_core</a> [1].<br>
+Target metabolite : co2_c <br>
+List of minimal gene deletion strategies <a href="../csv/e_coli_core&co2_c.csv" download="e_coli_core&co2_c.csv">(Download)</a><br><br>
+Gene deletion strategy (2 of 2: <a href="e_coli_core&co2_c&1.html">See next</a>) for growth-coupled production (at least stoichioemetrically feasible)<br>
+&nbsp Gene deletion size : 4<br>
+<font color="green">&nbsp Gene deletion: 
+<a href=https://www.genome.jp/entry/eco:s0001>s0001</a> <a href=https://www.genome.jp/entry/eco:b1849>b1849</a> <a href=https://www.genome.jp/entry/eco:b3115>b3115</a> <a href=https://www.genome.jp/entry/eco:b2296>b2296</a> &nbsp <a href="../alternativeGenes/alternative_genes&e_coli_core&co2_c&2&minimal.html">(List of alternative genes)</a>
+</font><br>
+&nbsp Computed by: <a href="https://github.com/MetNetComp/Gdel-minRN">gDel-minRN</a> [2] and randTrimGdel [3]<br><br>
+When growth rate is maximized,<br>
+<font color="green">
+&nbsp Growth Rate : 0.189173 (mmol/gDw/h)<br>
+&nbsp Minimum Production Rate : 14.824785 (mmol/gDw/h)<br><br>
+</font>
+Substrate: (mmol/gDw/h)<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_glc__D_e">EX_glc__D_e</a> : 10.000000<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_nh4_e">EX_nh4_e</a> : 1.031523<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_pi_e">EX_pi_e</a> : 0.695911<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_h2o_e">EX_h2o_e</a> : 0.381458<br>
+<br>
+Product: (mmol/gDw/h)<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_etoh_e">EX_etoh_e</a> : 16.584256<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/Auxiliary production reaction">Auxiliary production reaction</a> : 14.824785<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_h_e">EX_h_e</a> : 7.751160<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_for_e">EX_for_e</a> : 3.956347<br>
+<br>Visualization<br>
+&nbsp 1. <a href="../json/e_coli_core&co2_c&minimal&2.json">Download JSON file</a>.<br>
+&nbsp 2. Go to <a href="https://escher.github.io/#/app?map=e_coli_core.Core%20metabolism&tool=Builder&model=e_coli_core"> Escher site</a> [4].<br>
+&nbsp 3. Select "Data > Load reaction data" and apply the downloaded file.<br><br>
+References<br>
+[1] Orth, J. D., Fleming, R. M., Palsson, B. Ø. (2010). 
+Reconstruction and use of microbial metabolic networks: the core Escherichia coli metabolic model as an educational guide. EcoSal plus, 4(1).<br>
+[2] Tamura, T., Muto-Fujita, A., Tohsato, Y., & Kosaka, T. (2021). Gene Deletion Algorithms for Minimum Reaction Network Design by Mixed-integer Linear Programming for Metabolite Production in Constraint-based Models: gDel_minRN. preprint.<br>
+[3] Tamura, T. MetNetComp: database for minimal and maximal gene deletion strategies for growth-coupled production for genome-scale metabolic networks, in preparation.<br>
+[4] King, Z. A., Dräger, A., Ebrahim, A., Sonnenschein, N., Lewis, N. E., & Palsson, B. O. (2015). Escher: a web application for building, sharing, and embedding data-rich visualizations of biological pathways. PLoS computational biology, 11(8), e1004321.<br>
+<br><hr>Last updated: 04-Nov-2022<br>
+<a href="../indexFiles/contact.html">Contact</a><br>
+</body>
