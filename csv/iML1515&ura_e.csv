@@ -1,2 +1,3 @@
-Deletion size,Max growth rate,Min production rate,Deleted genes,,
-3,0.868354621687755,0.134453424554544,b2066,b0910,b2498
+Deletion size,Max growth rate,Min production rate,Deleted genes,,,,,,,
+3,0.868354621687769,0.13445342455512,b2066,b0910,b2498,,,,,
+8,0.770700600913091,0.546540789750519,b4152,b1612,b1611,b4122,b4138,b4123,b0621,b1206
