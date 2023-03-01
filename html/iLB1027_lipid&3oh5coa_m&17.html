@@ -19,7 +19,7 @@ Gene deletion strategy (17 of 17: <a href="iLB1027_lipid&3oh5coa_m&1.html">See n
 <font color="green">&nbsp Gene deletion: 
 <a href=https://www.genome.jp/entry/pti:PHATRDRAFT_54219>PHATRDRAFT_54219</a> <a href=https://www.genome.jp/entry/pti:PHATRDRAFT_13894>PHATRDRAFT_13894</a> <a href=https://www.genome.jp/entry/pti:PHATRDRAFT_17401>PHATRDRAFT_17401</a> <a href=https://www.genome.jp/entry/pti:PHATRDRAFT_36256>PHATRDRAFT_36256</a> <a href=https://www.genome.jp/entry/pti:PHATRDRAFT_41886>PHATRDRAFT_41886</a> <a href=https://www.genome.jp/entry/pti:PHATRDRAFT_39681>PHATRDRAFT_39681</a> <a href=https://www.genome.jp/entry/pti:PHATRDRAFT_44384>PHATRDRAFT_44384</a> &nbsp <a href="../alternativeGenes/alternative_genes&iLB1027_lipid&3oh5coa_m&17&minimal.html">(List of alternative genes)</a>
 </font><br>
-&nbsp Computed by: <a href="https://github.com/MetNetComp/Gdel-minRN">gDel-minRN</a> [3] and randTrimGdel [1]<br><br>
+&nbsp Computed by: RandTrimGdel [1] (<a href="https://github.com/MetNetComp/Gdel-minRN">Step 1</a>, <a href="https://github.com/MetNetComp/RandTrimGdel-Step2">Step 2</a>)<br><br>
 When growth rate is maximized,<br>
 <font color="green">
 &nbsp Growth Rate : 0.322301 (mmol/gDw/h)<br>
@@ -27,29 +27,27 @@ When growth rate is maximized,<br>
 </font>
 Substrate: (mmol/gDw/h)<br>
 &nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_photon_e">EX_photon_e</a> : 1000.000000<br>
-&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_co2_e">EX_co2_e</a> : 19.022326<br>
-&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_h2o_e">EX_h2o_e</a> : 14.716427<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_co2_e">EX_co2_e</a> : 17.700218<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_h2o_e">EX_h2o_e</a> : 13.394319<br>
 &nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_no3_e">EX_no3_e</a> : 1.760000<br>
-&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_h_e">EX_h_e</a> : 0.828637<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_h_e">EX_h_e</a> : 0.386803<br>
 &nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_pi_e">EX_pi_e</a> : 0.220000<br>
 &nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_so4_e">EX_so4_e</a> : 0.083402<br>
 &nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_mg2_e">EX_mg2_e</a> : 0.005760<br>
 <br>
 Product: (mmol/gDw/h)<br>
-&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_o2_e">EX_o2_e</a> : 24.927882<br>
-&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_lac__D_e">EX_lac__D_e</a> : 0.881971<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/EX_o2_e">EX_o2_e</a> : 22.943872<br>
+&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/SK_for_c">SK_for_c</a> : 1.624474<br>
 &nbsp <a href="http://bigg.ucsd.edu/universal/reactions/DM_biomass_c">DM_biomass_c</a> : 0.322301<br>
-&nbsp <a href="http://bigg.ucsd.edu/universal/reactions/SK_for_c">SK_for_c</a> : 0.300669<br>
 &nbsp <a href="http://bigg.ucsd.edu/universal/reactions/Auxiliary production reaction">Auxiliary production reaction</a> : 0.026083<br>
 &nbsp <a href="http://bigg.ucsd.edu/universal/reactions/DM_minohp_c">DM_minohp_c</a> : 0.010287<br>
 <br>Visualization<br>
 &nbsp 1. <a href="../json/iLB1027_lipid&3oh5coa_m&minimal&17.json" download="../json/iLB1027_lipid&3oh5coa_m&minimal&17.json">Download JSON file</a>.<br>
-&nbsp 2. Go to <a href="https://escher.github.io/#/"> Escher site</a> [4].<br><br>
+&nbsp 2. Go to <a href="https://escher.github.io/#/"> Escher site</a> [3].<br><br>
 References<br>
 [1] Tamura, T. MetNetComp: database for minimal and maximal gene deletion strategies for growth-coupled production for genome-scale metabolic networks, to be submitted.<br>
 [2] Norsigian, C. J., Pusarla, N., McConn, J. L., Yurkovich, J. T., Dräger, A., Palsson, B. O., & King, Z. (2020). BiGG Models 2020: multi-strain genome-scale models and expansion across the phylogenetic tree. Nucleic acids research, 48(D1), D402-D406.<br>
-[3] Tamura, T., Muto-Fujita, A., Tohsato, Y., & Kosaka, T. Gene Deletion Algorithms for Minimum Reaction Network Design by Mixed-integer Linear Programming for Metabolite Production in Constraint-based Models: gDel_minRN. Journal of Computational Biology, in press.<br>
-[4] King, Z. A., Dräger, A., Ebrahim, A., Sonnenschein, N., Lewis, N. E., & Palsson, B. O. (2015). Escher: a web application for building, sharing, and embedding data-rich visualizations of biological pathways. PLoS computational biology, 11(8), e1004321.<br>
-<br><hr>Last updated: 27-Feb-2023<br>
+[3] King, Z. A., Dräger, A., Ebrahim, A., Sonnenschein, N., Lewis, N. E., & Palsson, B. O. (2015). Escher: a web application for building, sharing, and embedding data-rich visualizations of biological pathways. PLoS computational biology, 11(8), e1004321.<br>
+<br><hr>Last updated: 01-Mar-2023<br>
 <a href="../indexFiles/contact.html">Contact</a><br>
 </body>
