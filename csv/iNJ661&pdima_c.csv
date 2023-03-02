@@ -1,2 +1,3 @@
-Deletion size,Max growth rate,Min production rate,Deleted genes,
-2,0.0430104617544107,0.0260810292354395,Rv3356c,Rv2945c
+Deletion size,Max growth rate,Min production rate,Deleted genes,,,,
+2,0.0430104617544107,0.0260810292354395,Rv3356c,Rv2945c,,,
+5,0.044764668959122,0.00251652717184335,Rv2443,Rv2476c,Rv1098c,Rv2945c,Rv0694
